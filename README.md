@@ -7,7 +7,7 @@ Application Windows qui capte le micro, nettoie et mixe la voix en temps réel a
 <!-- installeur-release -->
 ## Installation
 
-Téléchargez **`ClearMic-Setup-0.1.0.exe`** depuis la [dernière release](https://github.com/Les-Doubles-A/ClearMic/releases/latest), puis lancez-le.
+Téléchargez **`ClearMic-Setup-0.1.1.exe`** depuis la [dernière release](https://github.com/Les-Doubles-A/ClearMic/releases/latest), puis lancez-le.
 
 L'installation se fait pour l'utilisateur courant, sans droits administrateur (par défaut dans `%LOCALAPPDATA%\Programs\ClearMic`), avec un raccourci dans le menu Démarrer et une désinstallation depuis les Paramètres Windows.
 

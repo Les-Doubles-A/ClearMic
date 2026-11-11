@@ -1,8 +1,8 @@
 ﻿; Installeur Inno Setup de ClearMic. Compilation : iscc installer\ClearMic.iss
-; Le setup est cree dans installer\Output\ClearMic-Setup-0.1.0.exe
+; Le setup est cree dans installer\Output\ClearMic-Setup-0.1.1.exe
 #define MyAppExe "ClearMic.exe"
 #define MyAppName "ClearMic"
-#define MyAppVersion "0.1.0"
+#define MyAppVersion "0.1.1"
 #define MyAppURL "https://github.com/Les-Doubles-A/ClearMic"
 
 [Setup]
@@ -26,6 +26,7 @@ WizardStyle=modern
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 CloseApplications=yes
+SetupIconFile=..\assets\ClearMic.ico
 UninstallDisplayIcon={app}\ClearMic.exe
 
 [Languages]

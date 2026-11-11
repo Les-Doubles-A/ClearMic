@@ -45,7 +45,11 @@ fn main() -> eframe::Result {
         viewport: eframe::egui::ViewportBuilder::default()
             .with_title("ClearMic")
             .with_inner_size([620.0, 760.0])
-            .with_min_inner_size([480.0, 420.0]),
+            .with_min_inner_size([480.0, 420.0])
+            .with_icon(
+                eframe::icon_data::from_png_bytes(include_bytes!("../../../assets/ClearMic.png"))
+                    .expect("icone ClearMic.png invalide"),
+            ),
         ..Default::default()
     };
     eframe::run_native(
